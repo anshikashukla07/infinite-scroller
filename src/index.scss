@@ -1,0 +1,31 @@
+body {
+    background-color: #d5dbdb;
+
+    .user-box {
+        border: 1px solid #424949;
+        margin: auto;
+        width: 400px;
+        margin-top: 8px;
+        padding: 4px;
+        display: flex;
+        border-radius: 4px;
+        background-color: #fdf2e9;
+
+        .user-info {
+            display: flex;
+            flex-direction: column;
+            padding: 8px;
+
+            .user-name {
+                font-size: 20px;
+                font-weight: bold;
+                color: #d68910;
+            }
+        }
+    }
+
+    .loader-center {
+        display: flex;
+        justify-content: center;
+    }
+}
