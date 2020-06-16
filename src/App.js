@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import InfiniteScroll from 'react-infinite-scroller';
-import {defer} from 'rxjs';
 import {User} from './user';
 import ReactLoading from 'react-loading';
 
